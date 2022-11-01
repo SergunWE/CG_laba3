@@ -404,7 +404,7 @@ namespace kg_laba2
 			}
 		}
 
-		private void DrawFilleB(Color borderColor, Color fillColor, Point start)
+		private void DrawFillB(Color borderColor, Color fillColor, Point start)
 		{
 			var stack = new Stack<Point>();
 			stack.Push(start);
